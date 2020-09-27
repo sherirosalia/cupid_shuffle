@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="styles.css">
     <title>Cash for Covid</title>
   </head>
-
+<div class="container">
   <div class="jumbotron sticky-top bg-dark text-white">
       <h1>Cupid shuffle</h1>            
       <p class="lead text-white">Can data science find true romance?</p> 
       <p class="lead text-white"></p>              
   </div>
+</div>
   <!-- end of jumbotron and beginning of content container -->
 
 <!-- first wrapper container  -->
@@ -67,7 +68,7 @@
   <div class="row">
     <div class="col-md-2"></div>
       <div class="col-md-8">
-        <h2>Country music</h2>
+        <h2>Word favorites</h2>
         <p>
             Lorem ipsum dolor sit, 
             amet consectetur adipisicing elit. Qui animi porro eum necessitatibus culpa a.
@@ -77,28 +78,92 @@
     </div>
   </div>
 
+  <!-- beginning of container for country word count image -->
   <div class="container">
     <div class="row">
-      <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-8">
-          <h2>Hip hop</h2>
-          <p>
-              Lorem ipsum dolor sit, 
-              amet consectetur adipisicing elit. Qui animi porro eum necessitatibus culpa a.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptate inventore commodi dolor quod, dolorum deserunt 
-              aspernatur obcaecati eius maxime eligendi fugit sint veniam molestias explicabo labore ad quo amet.
-          </p> 
+            <figure>
+                <img class="img-fluid figure-image mx-auto d-block" id='code' src="images/country_top_words.png" alt="spotify api">
+                <figcaption class="figure-caption">Top words in country romance</figcaption>
+            </figure>
+
         </div>
         <div class="col-md-2"></div>
-      </div>
     </div>
-        
+</div>
+<!-- end of country image -->
+
+  <!-- beginning of container for hip hop popular words image -->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <figure>
+                <img class="img-fluid figure-image mx-auto d-block" id='code' src="images/hip_top.png" alt="hip hop top words">
+                <figcaption class="figure-caption">Hip hop top words</figcaption>
+            </figure>
+
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+<!-- end of hip hop popular words image -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <h2>Variety is the spice of country life</h2>
+        <p>
+            Lorem ipsum dolor sit, 
+            amet consectetur adipisicing elit. Qui animi porro eum necessitatibus culpa a.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptate inventore commodi dolor quod, dolorum deserunt 
+            aspernatur obcaecati eius maxime eligendi fugit sint veniam molestias explicabo labore ad quo amet.
+        </p> 
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
+  <!-- beginning of container for hip hop count image -->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <figure>
+                <img class="img-fluid figure-image mx-auto d-block" id='code' src="images/country_word_types.png" alt="spotify api">
+                <figcaption class="figure-caption">Country word types</figcaption>
+            </figure>
+
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+<!-- end of country word type image -->
+
+  <!-- beginning of container for hip hop count image -->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <figure>
+                <img class="img-fluid figure-image mx-auto d-block" id='code' src="images/hip_word_type.png" alt="spotify api">
+                <figcaption class="figure-caption">Hip Hop word types</figcaption>
+            </figure>
+
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+<!-- end of hip hop word type image -->
+
       
 <div class="container">
   <div class="row">
     <div class="col-md-2"></div>
       <div class="col-md-8">
-        <h2>Coming soon</h2>
+        <h2>Cupid Shuffle</h2>
         <p>
             Wrangling the data is in process so in the meantime, please enjoy the music!
         </p> 
@@ -165,7 +230,7 @@
                 $elie.css({ '-moz-transform': 'rotate(' + degree + 'deg)'});                      
                 timer = setTimeout(function() {
                     ++degree; rotate();
-                },40);
+                },60);
             }
             
             $("#vinyl").toggle(function() {
