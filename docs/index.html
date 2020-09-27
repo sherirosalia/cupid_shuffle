@@ -32,7 +32,7 @@
           <h1>Love and hip hop or country romance?</h1>
 
           <p>
-            What strums your heart strings: country music love songs or hip hop romance? 
+            What strums your heart strings: country music or hip hop? 
             Can we classify one as superior when it comes to matters of affection? This project
             aims to see if analysis using machine learning algorithms will suggest that one genre
             is more romantic in comparison with the other.
@@ -45,8 +45,9 @@
             styles if
             looking at lyrics alone and argue that as a genre, it is loaded with phrases evoking and
             expressing a longing that does not show up as frequently in pop.    
-            So I did what any data professional would do and pushed the lyrics through some alogorithms
-            to see what might turned up. 
+            So, in the pursuit of figuring out whether this is true or not, I did what any data professional would do 
+            and used the "super powers" of data science to see 
+            see what might turn up. 
           </p>
         </div>
       <div class="col-md-2"></div>
@@ -76,12 +77,14 @@
     <div class="col-md-2"></div>
       <div class="col-md-8">
         <h2>The approach</h2>
-        <p>I retrieved two randomly generated sets of playlists from two categories namely: "country romance" and "hip hop romance".
-          which suggested approximately 800 songs each. The genius.com API provided access to retrieve the lyric text for the combined 
-          total of 1600 tracks. The text from all of the songs subsequently normalized with the 
-          Python programming language and processed using natural language machine learning algorithms. This process 
-          provided the opportunity to evaluate each genre based on distinct word patterns and their frequencies.
-          
+        <p>I retrieved two randomly generated sets of playlists from two categories namely: "country romance" and "hip hop romance"
+          using the Spotify API developer tools. This resulted in two lists which housed approximately 800 songs each. 
+          I took the song list extracted from Spotify and processed them using the API provided by genius.com
+          resulting in the lyric text for the combined 
+          total of 1600 tracks. The wording from all of these songs were subsequently normalized and cleaned using the 
+          Python programming language and subsequently processed using natural language machine learning algorithms. 
+          This process of extraction and tranformation provided the basis for evaluating each genre for distinct word patterns 
+          along with their use frequencies.          
         </p> 
       </div>
       <div class="col-md-2"></div>
@@ -128,10 +131,11 @@
       <div class="col-md-8">
         <h2>Love and hip hop</h2>
         <p>
-            Those who would argue against me could point to the fact that 
+            The detractors referenced above who would argue against me could point to the fact that 
             the word "love"            
-            places at a higher frequency in hip hop as is seen by it 
-            coming in at 2nd place in 
+            ranks at a higher frequency in hip hop compared to country as is seen in the chart below. 
+            Note that it
+            comes in at 2nd place in 
             comparison with 4th in country. The counter argument could be that even though 
             this may be true, the word "love" itself appears approximately 2,500 times
             in the random sampling of country lyrics versus 1750 in hip hop.           
