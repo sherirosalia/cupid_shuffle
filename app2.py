@@ -21,7 +21,6 @@ for index, row in df.iterrows():
         song_dict={
             'Title' : row["Title"],
             'Artist': row["Artist"],
-            'Year': row["song_release_date"],
             'Lyrics' : song.lyrics
         }
         lyrics.append(song_dict)
