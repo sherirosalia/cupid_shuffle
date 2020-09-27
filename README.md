@@ -9,7 +9,7 @@ When it comes to compiling the ultimate playlist of the heart, the question aris
 - Songs were randomly selected uing the Spotify Developer API, the code for which is housed in a separate repository: <a href='https://github.com/sherirosalia/sound_effects.git'>sound_effects</a>
 -  Machine learning processing with the NLTK library to count word frequencies.
 ###
-[<img src="images/record.png" width="250"/>](images/record.png)
+[<img src="docs/images/rose_smaller.png" width="250"/>](images/rose_smaller.png)
 ### Folder structure in root
 - README.md 
 - data_files houses country and hip hop JSON from Spotify
