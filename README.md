@@ -19,7 +19,7 @@ When it comes to compiling the ultimate playlist of the heart, the question aris
 - data_files houses country and hip hop JSON from Spotify
 - website files and images in docs
 - screenshots are in images 
-- python folder holds code for genius api which is complete in app.py. There are also two jupyter notebook files which analyze the lyrics with PySpark, NLTK and Python Pandas
+- python folder holds code for genius api which is complete in app.py. There are also two jupyter notebook files which analyze the lyrics with PySpark, NLTK and Python Pandas, Spotify API
 ### "We've only just begun." 
 There are so many avenues to take music analysis using natural language libraries (NLP). Thank you for reading this far and I hope you find the scripts helpful. If you do, please feel free to clone or fork the project and take it to the next level. I would love to hear what you do with it. An explanation of the project is here: <a href='https://sherirosalia.github.io/cupid_shuffle/'>Cupid Shuffle</a>
 
